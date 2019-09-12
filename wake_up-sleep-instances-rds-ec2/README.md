@@ -1,10 +1,10 @@
 # Description
 Stop/Start EC2 and RDS. Time between RDS startup and EC2 startup can be modified.
 
-#Instruction
+Instruction
 The instances must be tagged with the tag: "lambda_sleep_instances" and any value, like "true".
 
-#JSON Policy for the lambda role:
+JSON Policy for the lambda role:
 
 {
     "Version": "2012-10-17",
