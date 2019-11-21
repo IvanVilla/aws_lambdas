@@ -6,7 +6,7 @@ ec2 = boto3.client('ec2')
 rds = boto3.client('rds')
 ids_ec2 = []
 ids_rds = []
-# Time wait between EC2 stop and RDS start
+# Time wait between EC2 stop and RDS stop
 waiting_time = 600
  
 def lambda_handler(event, context):
